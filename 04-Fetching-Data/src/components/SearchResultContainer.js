@@ -14,8 +14,8 @@ const SearchResultContainer = () => {
     setResults(response.data.data);
   };
 
-  // We want to run this method when the component first loads so that we have images of kittens to display
-  // The second argument is the dependency array. This means that this method will only run when the component first loads
+// The primary use of useEffect in this context of data fetching is 
+// to ensure that data is fetched at the right time in the component's lifecycle.
   useEffect(() => {
     searchGiphy('kittens');
   }, []);

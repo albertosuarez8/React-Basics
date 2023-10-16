@@ -1,4 +1,4 @@
-// Axios is a popular NPM package used for preforming API requests
+// Axios is a popular NPM package used for performing API requests
 import axios from 'axios';
 
 // Using axios, we create a search method that is specific to our use case and export it at the bottom
